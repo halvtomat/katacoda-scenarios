@@ -1,0 +1,22 @@
+name: Linter
+
+on:
+	push:
+		branches: [main]
+	pull_request:
+		branches: [main]
+
+jobs:
+	build:
+		runs-on: ubuntu-latest
+	steps:
+	- uses: action/checkout@v2
+	- uses: actions/setup-node@v1
+		with:
+			node-version: 14
+	- run: npm ci
+	- uses: wearerequired/lint-action@v1
+		with:
+			eslint: true
+			prettier: true
+

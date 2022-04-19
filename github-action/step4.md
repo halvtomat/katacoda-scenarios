@@ -35,7 +35,7 @@ And finally we need to specify the steps the job needs to do in order to run the
   - uses: actions/checkout@v2
   - uses: actions/setup-node@v1
 	with:
-	  node-version: 14.x
+	  node-version: 14
   - run: npm ci
   - run: npm test
 ```
@@ -44,4 +44,6 @@ In the first step we are using the `uses` attribute which specifies another acti
 
 The next step is a `run` attribute which specifies a command to run, in this case `npm ci` which is a Node.js command to make a clean install.
 
-And lastly we run `npm test` to run all tests in the repo.
+And lastly we run `npm test` to run all tests in the branch.
+
+If the tests fail, we will no longer get the green check mark next to the commit, it will now show up as a red cross mark.

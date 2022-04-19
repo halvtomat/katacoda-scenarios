@@ -7,3 +7,4 @@ Now that you have your first GitHub Action you might be wondering what all the Y
 - `steps` is a ordered list of all steps to complete a job.
 - `run` decides what command to execute in the current step. 
 
+Read about more different YAML attributes in GitHub Actions [here](https://docs.github.com/en/actions/learn-github-actions/understanding-github-actions).
