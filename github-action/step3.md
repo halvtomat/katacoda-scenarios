@@ -1,5 +1,3 @@
-# More details
-
 Now that you have your first GitHub Action you might be wondering what all the YAML attributes actually does.
 
 - `name` decides the name of the action.

@@ -1,5 +1,3 @@
-# Getting started
-
 The first step to create your first GitHub Action is to set up the directory structure.
 
 The structure for your actions from the root of you Git repo should look like this:

@@ -16,11 +16,26 @@
       {
         "title": "More details",
         "text": "step3.md"
+      },
+      {
+        "title": "Run tests",
+        "text": "step4.md"
+      },
+      {
+        "title": "Linting",
+        "text": "step5.md"
+      },
+      {
+        "title": "Merging",
+        "text": "step5.md"
+      },
+      {
+        "title": "Automatic labelling",
+        "text": "step6.md"
       }
     ],
     "intro": {
-      "text": "intro.md",
-      "code": "foreground.sh"
+      "text": "intro.md"
     },
     "finish": {
       "text": "finish.md"

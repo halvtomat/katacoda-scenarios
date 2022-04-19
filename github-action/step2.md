@@ -1,5 +1,3 @@
-# Demo action
-
 You should now have a `.github/workflows` directory.
 
 It is time to create your first action.
