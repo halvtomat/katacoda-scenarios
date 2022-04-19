@@ -24,11 +24,16 @@
     },
     "finish": {
       "text": "finish.md"
+    },
+    "assets": {
+      "host01": [
+        {"file": "README.md", "target": "~/repo/"}
+      ]
     }
   },
   "environment": {
     "uilayout": "vscode-terminal-split",
-    "uieditorpath": "~"
+    "uieditorpath": "~/repo/"
   },
   "backend": {
     "imageid": "ubuntu:2004"
