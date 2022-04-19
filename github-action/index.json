@@ -10,11 +10,11 @@
         "text": "step1.md"
       },
       {
-        "title": "Step 2",
+        "title": "Demo action",
         "text": "step2.md"
       },
       {
-        "title": "Step 3",
+        "title": "More details",
         "text": "step3.md"
       }
     ],
@@ -27,7 +27,8 @@
     }
   },
   "environment": {
-    "uilayout": "vscode-terminal-split"
+    "uilayout": "vscode-terminal-split",
+    "uieditorpath": "~"
   },
   "backend": {
     "imageid": "ubuntu:2004"

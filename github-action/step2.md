@@ -1,4 +1,4 @@
-# action1.yml
+# Demo action
 
 You should now have a `.github/workflows` directory.
 
@@ -30,4 +30,9 @@ jobs:
 
 Now if you push the changes to your GitHub repo, the action is automatically deployed and will run on all future pushes to the repo.
 
-When pushing 
+
+It should now look like this on your future pushes to the repo.
+![GitHub image](assets/action.jpg)
+
+And if you click the ✔ you should see something like this.
+![Action summary image](assets/action-summary.png)
