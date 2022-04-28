@@ -1,4 +1,4 @@
 #!/bin/bash
 
-touch .github/workflows/labeler.yml
-tocuh .github/labeler.yml
+touch labeler.yml
+touch ../labeler.yml

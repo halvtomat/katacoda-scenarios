@@ -1,3 +1,5 @@
 #!/bin/bash
 
-mkdir .github/workflows
+mkdir .github
+cd .github
+mkdir workflows

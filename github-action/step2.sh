@@ -1,2 +1,2 @@
 #!/bin/bash
-touch .github/workflows/action.yml
+touch action.yml
