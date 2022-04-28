@@ -43,14 +43,16 @@
     ],
     "intro": {
       "text": "intro.md",
-      "code": "setup.sh"
+      "courseData": "setup.sh"
     },
     "finish": {
       "text": "finish.md"
     }
   },
   "environment": {
-    "uilayout": "editor-terminal"
+    "uilayout": "editor-terminal",
+    "uieditorpath": "/root/repo",
+    "hideHiddenFiles": false
   },
   "backend": {
     "imageid": "ubuntu:2004"
