@@ -1,3 +1,3 @@
 #!/bin/bash
 
-touch .github/workflows/merge.yml
+touch merge.yml
