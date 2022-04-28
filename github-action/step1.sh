@@ -1,5 +1,6 @@
 #!/bin/bash
 cd /root/repo
 mkdir .github
-cd .github
-mkdir workflows
+mkdir .github/workflows
+tree -ar
+cd .github/workflows
