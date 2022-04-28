@@ -7,48 +7,50 @@
     "steps": [
       {
         "title": "Getting started",
-        "text": "step1.md"
+        "text": "step1.md",
+        "code": "step1.sh"
       },
       {
         "title": "Demo action",
-        "text": "step2.md"
+        "text": "step2.md",
+        "code": "step2.sh"
       },
       {
         "title": "More details",
-        "text": "step3.md"
+        "text": "step3.md",
+        "code": "step3.sh"
       },
       {
         "title": "Run tests",
-        "text": "step4.md"
+        "text": "step4.md",
+        "code": "step4.sh"
       },
       {
         "title": "Linting",
-        "text": "step5.md"
+        "text": "step5.md",
+        "code": "step5.sh"
       },
       {
         "title": "Merging",
-        "text": "step6.md"
+        "text": "step6.md",
+        "code": "step6.sh"
       },
       {
         "title": "Automatic labelling",
-        "text": "step7.md"
+        "text": "step7.md",
+        "code": "step7.sh"
       }
     ],
     "intro": {
-      "text": "intro.md"
+      "text": "intro.md",
+      "courseData": "setup.sh"
     },
     "finish": {
       "text": "finish.md"
-    },
-    "assets": {
-      "host01": [
-        {"file": "README.md", "target": "~/repo/"}
-      ]
     }
   },
   "environment": {
-    "uilayout": "vscode-terminal-split",
-    "uieditorpath": "~/repo/"
+    "uilayout": "editor-terminal-split"
   },
   "backend": {
     "imageid": "ubuntu:2004"
