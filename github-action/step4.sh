@@ -1,3 +1,2 @@
 #!/bin/bash
-
-touch test.yml
+touch ~/repo/.github/workflows/test.yml

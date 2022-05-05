@@ -2,7 +2,7 @@ There are hundreds of actions on the marketplace.
 
 Another useful one is [Merge Branch](https://github.com/marketplace/actions/branch-merge) which can be used to automatically merge a branch.
 
-Start as always be creating a file `.github/workflows/merge.yml` and writing the `name` and `on` attributes in the YAML file.
+As always a file called `merge.yml` has been created. Write the `name` and `on` attributes in the YAML file.
 
 ```yaml
 name: Merge

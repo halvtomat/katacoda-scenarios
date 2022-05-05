@@ -2,7 +2,7 @@ You should now have a `.github/workflows` directory.
 
 It is time to create your first action.
 
-Create a new file called `action.yml` in your `workflows` directory.
+A new file called `action.yml` has been created in your `workflows` directory.
 
 Copy the following YAML content into the `action.yml` file:
 

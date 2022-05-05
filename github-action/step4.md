@@ -6,7 +6,7 @@ This might be tedious to do manually, having to checkout the branch and running 
 
 So you want to create a action to do it automatically.
 
-Begin by creating a new file `.github/workflows/test.yml`, this is your new action.
+A new file called `test.yml` has been created, this is your new action.
 
 Since we want it to run tests on all PRs to the main branch, we can begin by writing:
 

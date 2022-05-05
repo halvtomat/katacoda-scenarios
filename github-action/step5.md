@@ -1,6 +1,6 @@
 Now imagine you want to automate linting to make sure the code follows the same style in the whole repo.
 
-As previously, create a new file `.gtihub/workflows/linter.yml` which is your linter action.
+As previously, a new file called `linter.yml` has been created, this is your linter action.
 
 By now you know how to write the first few lines of YAML.
 

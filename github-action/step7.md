@@ -2,7 +2,7 @@ Lastly we want to take a look at issue/PR labeling action called [Labeler](https
 
 This action is special because it uses an external configuration file.
 
-Create the file `.github/workflows/labeler.yml` and write the following YAML:
+The file `labeler.yml` has been created, write the following YAML:
 
 ```yaml
 name: Labeler
@@ -20,7 +20,7 @@ jobs:
 
 And that is the whole workflow file.
 
-Now to the external configuration, create a new file `.github/labeler.yml`.
+Now to the external configuration, a new file called `labeler.yml` has been created in the `.github/` directory.
 
 This file is where you configure which labels to give to different PR conditions.
 

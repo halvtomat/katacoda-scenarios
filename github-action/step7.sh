@@ -1,4 +1,3 @@
 #!/bin/bash
-
-touch labeler.yml
-touch ../labeler.yml
+touch ~/repo/.github/workflows/labeler.yml
+touch ~/repo/.github/labeler.yml
