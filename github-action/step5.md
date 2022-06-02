@@ -27,16 +27,16 @@ Searching the marketplace, we find the [Lint Action](https://github.com/marketpl
 Now it's as simple as using that action in our action.
 
 ```yaml
-	steps:
-	- uses: action/checkout@v2
-	- uses: actions/setup-node@v1
-		with:
-			node-version: 14
-	- run: npm ci
-	- uses: wearerequired/lint-action@v1
-		with:
-			eslint: true
-			prettier: true
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 14
+      - run: npm ci
+      - uses: wearerequired/lint-action@v1
+        with:
+          eslint: true
+          auto_fix: true
 ```
 
 So what we did here is:
@@ -44,6 +44,6 @@ So what we did here is:
 1. Checkout the branch.
 1. Setup node version 14.
 1. Install Node.js dependencies.
-1. Run eslint and prettier with the Lint Action.
+1. Run eslint with the Lint Action.
 
-This action should now 
+This action should now work as intended.

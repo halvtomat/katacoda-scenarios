@@ -7,15 +7,15 @@ The file `labeler.yml` has been created, write the following YAML:
 ```yaml
 name: Labeler
 on:
-- pull_request
+  - pull_request
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/labeler@v4
-      with:
-        repo-token: "${{ secrets.GITHUB_TOKEN }}"
+      - uses: actions/labeler@v4
+        with:
+          repo-token: "${{ secrets.GITHUB_TOKEN }}"
 ```
 
 And that is the whole workflow file.
@@ -28,7 +28,7 @@ The PR conditions are paths with edited files in the PR, if we want to add a lab
 
 ```yaml
 test:
-- src/test/*
+  - src/test/*
 ```
 
 We can add as many label matches to the config file as we want!

@@ -31,13 +31,13 @@ jobs:
 And finally we need to specify the steps the job needs to do in order to run the tests.
 
 ```yaml
-  steps:
-  - uses: actions/checkout@v2
-  - uses: actions/setup-node@v1
-	with:
-	  node-version: 14
-  - run: npm ci
-  - run: npm test
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 14
+      - run: npm ci
+      - run: npm test
 ```
 
 In the first step we are using the `uses` attribute which specifies another action to use in our action, in this case we are using `actions/checkout@v2` which checks out the branch of the incoming PR for us. After that we use `actions/setup-node@v1` which sets up Node.js in our Ubuntu environment.

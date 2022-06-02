@@ -19,14 +19,14 @@ jobs:
 You might be able to figure out the `steps` on your own now, they are quite similar to previous examples.
 
 ```yaml
-	steps:
-	- uses: actions/checkout@v2
-	- uses: everlytic/branch-merge@1.1.2
-		with:
-			github_token: ${{ github.token }}
-			source_ref: ${{ github.ref }}
-			target_branch: 'main'
-			commit_message_template: '[Automated] Merged {source_ref} into target {target_branch}'
+    steps:
+      - uses: actions/checkout@v3
+      - uses: everlytic/branch-merge@1.1.2
+        with:
+          github_token: ${{ github.token }}
+          source_ref: ${{ github.ref }}
+          target_branch: 'main'
+          commit_message_template: '[Automated] Merged {source_ref} into target {target_branch}'
 ```
 
 The new things with this action is the use of variables.
