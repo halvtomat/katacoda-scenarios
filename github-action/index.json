@@ -55,6 +55,6 @@
     "hideHiddenFiles": false
   },
   "backend": {
-    "imageid": "ubuntu:2004"
+    "imageid": "ubuntu"
   }
 }
