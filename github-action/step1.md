@@ -14,10 +14,10 @@ The structure for your actions from the root of you Git repo should look like th
 └── README.md
 ```
 
-Note: The directory **names** are *important*.
+Note: The directory **names** are _important_.
 
 Set up this structure in the editor and continue to the next step.
 
 Tip: You can check your directory structure at any time with the tree command.
 
-	tree -ar
+`tree -ar`
