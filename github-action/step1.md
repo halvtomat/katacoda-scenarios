@@ -20,4 +20,4 @@ Set up this structure in the editor and continue to the next step.
 
 Tip: You can check your directory structure at any time with the tree command.
 
-`tree -ar`
+`tree -ar`{{exec}}
