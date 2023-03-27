@@ -1,5 +1,3 @@
-#!/bin/bash
-
 mkdir repo
 cd repo
 touch README.md

@@ -6,7 +6,7 @@ A new file called `action.yml`{{}} has been created in your `workflows`{{}} dire
 
 Copy the following YAML content into the `action.yml`{{}} file:
 
-````yaml
+```yaml
 name: GitHub Actions Demo
 on: [push]
 jobs:
@@ -28,10 +28,8 @@ jobs:
 
 Now if you push the changes to your GitHub repo, the action is automatically deployed and will run on all future pushes to the repo.
 
-
 It should now look like this on your future pushes to the repo.
 ![GitHub image](assets/action.jpg)
 
 And if you click the ✔ you should see something like this.
 ![Action summary image](assets/action-summary.png)
-````
