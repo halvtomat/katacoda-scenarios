@@ -8,9 +8,11 @@ So you want to create a action to do it automatically.
 
 A new file called `test.yml`{{}} has been created, this is your new action.
 
+Open vim to edit the file with `vim test.yml`{{exec}}.
+
 Since we want it to run tests on all PRs to the main branch, we can begin by writing:
 
-````yaml
+```yaml
 name: Auto tester
 
 on:
@@ -47,4 +49,3 @@ The next step is a `run`{{}} attribute which specifies a command to run, in this
 And lastly we run `npm test`{{}} to run all tests in the branch.
 
 If the tests fail, we will no longer get the green check mark next to the commit, it will now show up as a red cross mark.
-````

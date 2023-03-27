@@ -4,7 +4,7 @@ It is time to create your first action.
 
 A new file called `action.yml`{{}} has been created in your `workflows`{{}} directory.
 
-Copy the following YAML content into the `action.yml`{{}} file:
+Open vim with `vim action.yml`{{exec}} and copy the following YAML content into the `action.yml`{{}} file:
 
 ```yaml
 name: GitHub Actions Demo
@@ -25,6 +25,10 @@ jobs:
           ls ${{ github.workspace }}
       - run: echo "🍏 This job's status is ${{ job.status }}."
 ```{{copy}}
+
+**TIP**: To paste your clipboard into the file in vim, use `CTRL+SHIFT+V`{{}} (or `CMD+SHIFT+V`{{}} on OSX).
+
+**TIP**: You can exit vim by first entering _normal mode_ (press ESC), then typing `:x`{{}}(save and exit) and then pressing enter
 
 Now if you push the changes to your GitHub repo, the action is automatically deployed and will run on all future pushes to the repo.
 

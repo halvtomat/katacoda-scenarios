@@ -2,7 +2,7 @@ There are hundreds of actions on the marketplace.
 
 Another useful one is [Merge Branch](https://github.com/marketplace/actions/branch-merge) which can be used to automatically merge a branch.
 
-As always a file called `merge.yml` has been created. Write the `name` and `on` attributes in the YAML file.
+As always a file called `merge.yml`{{}} has been created and you can open it in vim with `vim merge.yml`{{exec}}. Write the `name`{{}}, `on`{{}} and `jobs`{{}} attributes in the YAML file.
 
 ```yaml
 name: Merge
@@ -14,7 +14,7 @@ on:
 jobs:
 	build:
 		runs-on: ubuntu-latest
-```
+```{{copy}}
 
 You might be able to figure out the `steps` on your own now, they are quite similar to previous examples.
 
@@ -27,11 +27,11 @@ You might be able to figure out the `steps` on your own now, they are quite simi
           source_ref: ${{ github.ref }}
           target_branch: 'main'
           commit_message_template: '[Automated] Merged {source_ref} into target {target_branch}'
-```
+```{{copy}}
 
 The new things with this action is the use of variables.
 
-`${{ github.token }}` is a secret token in your repo which authorizes the action to commit certain actions, this variable is supplied by GitHub.
+`${{ github.token }}`{{}} is a secret token in your repo which authorizes the action to commit certain actions, this variable is supplied by GitHub.
 
 You can define your own variables by writing something like this:
 
@@ -41,6 +41,6 @@ variables:
 	value: 5
 - name: name
 	value: 'Daniel'
-```
+```{{copy}}
 
 And then use them by writing `${{ variables.name }}` or `${{ variables.amount_of_apples }}` anywhere.

@@ -2,9 +2,11 @@ Now imagine you want to automate linting to make sure the code follows the same 
 
 As previously, a new file called `linter.yml`{{}} has been created, this is your linter action.
 
+Again, you can edit the file by opening it in vim with `vim linter.yml`{{exec}}
+
 By now you know how to write the first few lines of YAML.
 
-`````yaml
+```yaml
 name: Linter
 
 on:
@@ -37,7 +39,7 @@ Now it's as simple as using that action in our action.
         with:
           eslint: true
           auto_fix: true
-````{{copy}}
+```{{copy}}
 
 So what we did here is:
 
@@ -47,4 +49,3 @@ So what we did here is:
 1. Run eslint with the Lint Action.
 
 This action should now work as intended.
-`````

@@ -2,7 +2,7 @@ Lastly we want to take a look at issue/PR labeling action called [Labeler](https
 
 This action is special because it uses an external configuration file.
 
-The file `labeler.yml` has been created, write the following YAML:
+The file `labeler.yml` has been created, open it in vim `vim labeler.yml`{{exec}} and copy the following YAML:
 
 ```yaml
 name: Labeler
@@ -16,7 +16,7 @@ jobs:
       - uses: actions/labeler@v4
         with:
           repo-token: "${{ secrets.GITHUB_TOKEN }}"
-```
+```{{copy}}
 
 And that is the whole workflow file.
 
@@ -29,6 +29,6 @@ The PR conditions are paths with edited files in the PR, if we want to add a lab
 ```yaml
 test:
   - src/test/*
-```
+```{{copy}}
 
 We can add as many label matches to the config file as we want!
