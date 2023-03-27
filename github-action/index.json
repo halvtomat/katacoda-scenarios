@@ -14,32 +14,32 @@
       {
         "title": "Demo action",
         "text": "step2.md",
-        "background": "step2.sh"
+        "background": "step2_bg.sh"
       },
       {
         "title": "More details",
         "text": "step3.md",
-        "background": "step3.sh"
+        "background": "step3_bg.sh"
       },
       {
         "title": "Run tests",
         "text": "step4.md",
-        "background": "step4.sh"
+        "background": "step4_bg.sh"
       },
       {
         "title": "Linting",
         "text": "step5.md",
-        "background": "step5.sh"
+        "background": "step5_bg.sh"
       },
       {
         "title": "Merging",
         "text": "step6.md",
-        "background": "step6.sh"
+        "background": "step6_bg.sh"
       },
       {
         "title": "Automatic labelling",
         "text": "step7.md",
-        "background": "step7.sh"
+        "background": "step7_bg.sh"
       }
     ],
     "intro": {
