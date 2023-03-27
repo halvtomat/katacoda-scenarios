@@ -8,7 +8,8 @@
       {
         "title": "Getting started",
         "text": "step1.md",
-        "background": "step1.sh"
+        "background": "step1_bg.sh",
+        "foreground": "step1_fg.sh"
       },
       {
         "title": "Demo action",

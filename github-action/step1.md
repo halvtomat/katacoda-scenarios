@@ -6,17 +6,12 @@ The structure for your actions from the root of you Git repo should look like th
 .
 ├── .github
 │   └── workflows
-│       └── action1.yml
-│       └── action2.yml
-│       └── .
-│       └── .
-│       └── actionX.yml
 └── README.md
 ```
 
 Note: The directory **names** are _important_.
 
-Set up this structure in the editor and continue to the next step.
+Any GitHub Actions you create will then be placed inside the _.github/workflows_ directory.
 
 Tip: You can check your directory structure at any time with the tree command.
 

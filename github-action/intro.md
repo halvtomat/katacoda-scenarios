@@ -18,8 +18,6 @@ GitHub Actions is the ultimate DevOps tool to use with GitHub.
 
 They are also really simple to use and create. This tutorial will teach you how!
 
-
-
 ## Learning Objective
 
 - GitHub Actions basics

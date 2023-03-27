@@ -1,12 +1,12 @@
-You should now have a `.github/workflows` directory.
+You should now have a `.github/workflows`{{}} directory.
 
 It is time to create your first action.
 
-A new file called `action.yml` has been created in your `workflows` directory.
+A new file called `action.yml`{{}} has been created in your `workflows`{{}} directory.
 
-Copy the following YAML content into the `action.yml` file:
+Copy the following YAML content into the `action.yml`{{}} file:
 
-```yaml
+````yaml
 name: GitHub Actions Demo
 on: [push]
 jobs:
@@ -24,7 +24,7 @@ jobs:
         run: |
           ls ${{ github.workspace }}
       - run: echo "🍏 This job's status is ${{ job.status }}."
-```
+```{{copy}}
 
 Now if you push the changes to your GitHub repo, the action is automatically deployed and will run on all future pushes to the repo.
 
@@ -34,3 +34,4 @@ It should now look like this on your future pushes to the repo.
 
 And if you click the ✔ you should see something like this.
 ![Action summary image](assets/action-summary.png)
+````
