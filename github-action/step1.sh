@@ -2,4 +2,3 @@
 cd ~/repo
 mkdir .github
 mkdir .github/workflows
-tree -ar
