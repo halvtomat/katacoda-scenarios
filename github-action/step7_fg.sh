@@ -1,0 +1,1 @@
+cd ~/repo/.github/workflows
