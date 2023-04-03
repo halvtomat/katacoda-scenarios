@@ -22,7 +22,7 @@ And that is the whole workflow file.
 
 Now to the external configuration, a new file called `labeler.yml`{{}} has been created in the `.github/`{{}} directory.
 
-Go there with this command: `cd ~/repo/.github`{{exec}}.
+Go there with this command: `cd ~/dd2482-is-bad/.github`{{exec}}.
 
 This file is where you configure which labels to give to different PR conditions.
 
@@ -36,3 +36,9 @@ test:
 ```{{copy}}
 
 We can add as many label matches to the config file as we want!
+
+To push to the repo, use the following commands:
+
+`git add ./`{{exec}}
+`git commit -m "add action demo"`{{exec}}
+`git push`{{exec}}

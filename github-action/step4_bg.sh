@@ -1,1 +1,1 @@
-touch ~/repo/.github/workflows/test.yml
+touch ~/dd2482-is-bad/.github/workflows/test.yml

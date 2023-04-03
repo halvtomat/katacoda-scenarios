@@ -1,2 +1,2 @@
-touch ~/repo/.github/workflows/labeler.yml
-touch ~/repo/.github/labeler.yml
+touch ~/dd2482-is-bad/.github/workflows/labeler.yml
+touch ~/dd2482-is-bad/.github/labeler.yml

@@ -1,1 +1,1 @@
-touch ~/repo/.github/workflows/linter.yml
+touch ~/dd2482-is-bad/.github/workflows/linter.yml

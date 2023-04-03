@@ -6,6 +6,12 @@
   "details": {
     "steps": [
       {
+        "title": "Setting up",
+        "text": "step0.md",
+        "background": "step0_bg.sh",
+        "foreground": "step0_fg.sh"
+      },
+      {
         "title": "Getting started",
         "text": "step1.md",
         "background": "step1_bg.sh",
@@ -58,7 +64,7 @@
   },
   "environment": {
     "uilayout": "editor-terminal",
-    "uieditorpath": "/root/repo",
+    "uieditorpath": "/root/dd2482-is-bad",
     "hideHiddenFiles": false
   },
   "backend": {

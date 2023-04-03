@@ -37,7 +37,7 @@ And finally we need to specify the steps the job needs to do in order to run the
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
         with:
-          node-version: 14
+          node-version: lts/-1
       - run: npm ci
       - run: npm test
 ```{{copy}}
@@ -49,3 +49,12 @@ The next step is a `run`{{}} attribute which specifies a command to run, in this
 And lastly we run `npm test`{{}} to run all tests in the branch.
 
 If the tests fail, we will no longer get the green check mark next to the commit, it will now show up as a red cross mark.
+
+
+To push to the repo, use the following commands:
+
+`git add ./`{{exec}}
+`git commit -m "add action demo"`{{exec}}
+`git push`{{exec}}
+
+Now you should see your tester in action!

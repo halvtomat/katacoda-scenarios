@@ -32,8 +32,10 @@ jobs:
 
 Now if you push the changes to your GitHub repo, the action is automatically deployed and will run on all future pushes to the repo.
 
-It should now look like this on your future pushes to the repo.
-![GitHub image](assets/action.jpg)
+To push to the repo, use the following commands:
 
-And if you click the ✔ you should see something like this.
-![Action summary image](assets/action-summary.png)
+`git add ./`{{exec}}
+`git commit -m "add action demo"`{{exec}}
+`git push`{{exec}}
+
+You should now see your action in action on your GitHub repo!

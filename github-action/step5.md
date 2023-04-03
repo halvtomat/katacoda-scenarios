@@ -33,7 +33,7 @@ Now it's as simple as using that action in our action.
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
         with:
-          node-version: 14
+          node-version: lts/-1
       - run: npm ci
       - uses: wearerequired/lint-action@v1
         with:
@@ -49,3 +49,10 @@ So what we did here is:
 1. Run eslint with the Lint Action.
 
 This action should now work as intended.
+
+
+To push to the repo, use the following commands:
+
+`git add ./`{{exec}}
+`git commit -m "add action demo"`{{exec}}
+`git push`{{exec}}

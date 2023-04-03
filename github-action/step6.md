@@ -44,3 +44,9 @@ variables:
 ```{{copy}}
 
 And then use them by writing `${{ variables.name }}` or `${{ variables.amount_of_apples }}` anywhere.
+
+To push to the repo, use the following commands:
+
+`git add ./`{{exec}}
+`git commit -m "add action demo"`{{exec}}
+`git push`{{exec}}

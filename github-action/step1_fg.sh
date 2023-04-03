@@ -1,1 +1,1 @@
-cd ~/repo
+cd ~/dd2482-is-bad
