@@ -53,6 +53,10 @@ This action should now work as intended.
 
 To push to the repo, use the following commands:
 
+`cd ~/dd2482-is-bad`{{exec}}
+
 `git add ./`{{exec}}
-`git commit -m "add action demo"`{{exec}}
+
+`git commit -m "add linter action"`{{exec}}
+
 `git push`{{exec}}

@@ -36,10 +36,22 @@
         "foreground": "step4_fg.sh"
       },
       {
+        "title": "Failing test",
+        "text": "step4-1.md",
+        "background": "step4-1_bg.sh",
+        "foreground": "step4-1_fg.sh"
+      },
+      {
         "title": "Linting",
         "text": "step5.md",
         "background": "step5_bg.sh",
         "foreground": "step5_fg.sh"
+      },
+      {
+        "title": "Failing lint",
+        "text": "step5-1.md",
+        "background": "step5-1_bg.sh",
+        "foreground": "step5-1_fg.sh"
       },
       {
         "title": "Merging",

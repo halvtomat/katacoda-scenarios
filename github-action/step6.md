@@ -47,6 +47,36 @@ And then use them by writing `${{ variables.name }}` or `${{ variables.amount_of
 
 To push to the repo, use the following commands:
 
+`cd ~/dd2482-is-bad`{{exec}}
+
 `git add ./`{{exec}}
-`git commit -m "add action demo"`{{exec}}
+
+`git commit -m "add merging action"`{{exec}}
+
 `git push`{{exec}}
+
+Now you should be able to create a new branch beginning with "release/" and it will be auto merged to main.
+
+Try it with the following commands:
+
+`cd ~/dd2482-is-bad`{{exec}}
+
+`echo TESTING MERGE >> README.md`{{exec}}
+
+`git checkout -b release/merge-test`{{exec}}
+
+`git add ./`{{exec}}
+
+`git commit -m "change README.md"`{{exec}}
+
+`git push --set-upstream origin/release/merge-test`{{exec}}
+
+After a few minutes you should see the text TESTING MERGE at the bottom of the README.md file in the main branch!
+
+To see the changes in the main branch, check it out and pull changes and print the file with the following commands:
+
+`git checkout main`{{exec}}
+
+`git pull`{{exec}}
+
+`cat README.md`{{exec}}

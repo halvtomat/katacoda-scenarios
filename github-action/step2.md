@@ -34,8 +34,12 @@ Now if you push the changes to your GitHub repo, the action is automatically dep
 
 To push to the repo, use the following commands:
 
+`cd ~/dd2482-is-bad`{{exec}}
+
 `git add ./`{{exec}}
+
 `git commit -m "add action demo"`{{exec}}
+
 `git push`{{exec}}
 
 You should now see your action in action on your GitHub repo!

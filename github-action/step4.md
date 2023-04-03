@@ -53,8 +53,12 @@ If the tests fail, we will no longer get the green check mark next to the commit
 
 To push to the repo, use the following commands:
 
+`cd ~/dd2482-is-bad`{{exec}}
+
 `git add ./`{{exec}}
-`git commit -m "add action demo"`{{exec}}
+
+`git commit -m "add tester action"`{{exec}}
+
 `git push`{{exec}}
 
-Now you should see your tester in action!
+Now you should see your tester in action and all tests should pass!
