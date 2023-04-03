@@ -57,13 +57,13 @@ Try it out with the following commands:
 
 `git checkout -b feature/new-styling`{{exec}}
 
-`echo .test { display: block; } >> ~/dd2482-is-bad/src/App.css`{{exec}}
+`echo -e "\n.test { display: block; }" >> ~/dd2482-is-bad/src/App.css`{{exec}}
 
 `git add ./`{{exec}}
 
-`git commit -m "add new styling`{{exec}}
+`git commit -m "add new styling"`{{exec}}
 
-`git push --set-upstream origin/feature/new-styling`{{exec}}
+`git push --set-upstream origin feature/new-styling`{{exec}}
 
 `gh pr create -f`{{exec}}
 

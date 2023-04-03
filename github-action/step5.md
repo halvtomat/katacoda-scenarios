@@ -20,7 +20,7 @@ jobs:
 		runs-on: ubuntu-latest
 ```{{copy}}
 
-This time we make the action run on both `push` and `pull_request`{{}} events.
+This time we make the action run on both `push`{{}} and `pull_request`{{}} events.
 
 Automating a linter might sound hard but we can get help from the [GitHub marketplace](https://github.com/marketplace).
 

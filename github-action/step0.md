@@ -5,6 +5,8 @@ and then cloning the repo with the `git clone`{{copy}} command.
 
 You probably have to create and add an access token for your GitHub account and use it here to be able to clone the repo. If not you should stil do it since you will need it to push later. Find out how to do it [here](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token).
 
+`gh auth login`{{exec}}
+
 You will also have to configure your git with your name and email with the following commands:
 
 `git config --global user.email "your.email@domain.com"`{{copy}}

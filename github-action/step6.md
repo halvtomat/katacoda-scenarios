@@ -69,7 +69,7 @@ Try it with the following commands:
 
 `git commit -m "change README.md"`{{exec}}
 
-`git push --set-upstream origin/release/merge-test`{{exec}}
+`git push --set-upstream origin release/merge-test`{{exec}}
 
 After a few minutes you should see the text TESTING MERGE at the bottom of the README.md file in the main branch!
 

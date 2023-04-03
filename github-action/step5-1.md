@@ -46,7 +46,7 @@ Push the edits to the repo with the following commands:
 
 `git add ./`{{exec}}
 
-`git commit -m "add action demo"`{{exec}}
+`git commit -m "add badly formatted code"`{{exec}}
 
 `git push`{{exec}}
 
