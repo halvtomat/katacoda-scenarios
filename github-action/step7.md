@@ -33,7 +33,7 @@ Open the file in vim with:
 
 `vim labeler.yml`{{exec}}
 
-The PR conditions are paths with edited files in the PR, if we want to add a label `test`{{}} to any changes in the `src/test/*`{{}} path, we would write the following:
+The PR conditions are paths with edited files in the PR, if we want to add a label `css`{{}} to any changes in `.css`{{}} files, we would write the following:
 
 ```yaml
 css:

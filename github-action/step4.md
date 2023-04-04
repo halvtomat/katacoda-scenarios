@@ -24,7 +24,7 @@ on:
 
 Now the action will run on all PRs and pushes to the main branch, we just need to specify *what* it is supposed to do on these PRs.
 
-We can do this by adding `jobs`.
+We can do this by adding `jobs`{{}}.
 
 ```yaml
 jobs:

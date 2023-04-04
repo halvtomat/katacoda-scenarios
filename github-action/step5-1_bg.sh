@@ -1,0 +1,1 @@
+rm ~/dd2482-is-bad/src/App.js

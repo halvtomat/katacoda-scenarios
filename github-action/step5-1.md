@@ -4,7 +4,7 @@ Open the App.js file in vim with the following command:
 
 `vim ~/dd2482-is-bad/src/App.js`{{exec}}
 
-Replace everything in the file with the following code instead:
+Copy the following content into the file:
 
 ```js
 import logo from './logo.svg';
@@ -12,9 +12,6 @@ import './App.css';
 import logo from './logo.svg'
 
 function App() {
-        const badly_fromatted = 'test';
-        badly_formatted = 3
-         
   return (
     <div className="App">
       <header className="App-header">
@@ -38,7 +35,7 @@ function App() {
 export default App;
 ```{{copy}}
 
-You might have noticed that the new code has a duplicated import and a const re-assignment, both triggers the linter.
+You might have noticed that the new code has a duplicated import which should trigger the linter.
 
 Push the edits to the repo with the following commands:
 

@@ -44,7 +44,7 @@ Now it's as simple as using that action in our action.
 So what we did here is:
 
 1. Checkout the branch.
-1. Setup node version 14.
+1. Setup the latest lts version of node.
 1. Install Node.js dependencies.
 1. Run eslint with the Lint Action.
 
