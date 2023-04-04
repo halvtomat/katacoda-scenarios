@@ -14,6 +14,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions: read-all|write-all
 ```{{copy}}
 
 You might be able to figure out the `steps`{{}} on your own now, they are quite similar to previous examples.
