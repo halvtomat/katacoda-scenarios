@@ -13,7 +13,7 @@ test('failing test', () => {
     render(<App />);
     const element = screen.getByText(/gibberish that dont exist/i);
     expect(element).toBeInTheDocument();
-})
+});
 ```{{copy}}
 
 This is a test that should fail, if you now push the new test to the repo, the tester action should fail.

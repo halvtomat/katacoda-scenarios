@@ -16,12 +16,12 @@ jobs:
     runs-on: ubuntu-latest
 ```{{copy}}
 
-You might be able to figure out the `steps` on your own now, they are quite similar to previous examples.
+You might be able to figure out the `steps`{{}} on your own now, they are quite similar to previous examples.
 
 ```yaml
     steps:
       - uses: actions/checkout@v3
-      - uses: everlytic/branch-merge@1.1.2
+      - uses: everlytic/branch-merge@1.1.5
         with:
           github_token: ${{ github.token }}
           source_ref: ${{ github.ref }}
@@ -32,22 +32,6 @@ You might be able to figure out the `steps` on your own now, they are quite simi
 The new things with this action is the use of variables.
 
 `${{ github.token }}`{{}} is a secret token in your repo which authorizes the action to commit certain actions, this variable is supplied by GitHub.
-
-You can define your own variables by writing something like this:
-
-```yaml
-variables:
-  - name: amount_of_apples
-    value: 5
-  - name: name
-    value: 'Daniel'
-```{{copy}}
-
-And then use them by writing 
-
-`${{ variables.name }}` or 
-
-`${{ variables.amount_of_apples }}` anywhere.
 
 To push to the repo, use the following commands:
 

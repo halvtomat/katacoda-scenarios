@@ -17,7 +17,7 @@ name: Auto tester
 
 on:
   push:
-  branches: [main]
+    branches: [main]
   pull_request:
     branches: [main]
 ```{{copy}}

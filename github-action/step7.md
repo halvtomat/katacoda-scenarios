@@ -36,7 +36,7 @@ The PR conditions are paths with edited files in the PR, if we want to add a lab
 
 ```yaml
 css:
-  - *.css
+  - '**/*.css'
 ```{{copy}}
 
 We can add as many label matches to the config file as we want!

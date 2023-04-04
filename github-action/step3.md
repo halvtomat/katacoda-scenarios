@@ -7,4 +7,6 @@ Now that you have your first GitHub Action you might be wondering what all the Y
 - `steps`{{}} is a ordered list of all steps to complete a job.
 - `run`{{}} decides what command to execute in the current step.
 
+In the GitHub Actions Demo that you just pushed to your repo there are mostly `echo`{{}} commands which just writes some text to the output but there is also a `ls`{{}} command which prints the files in the workspace and a `uses actions/checkout@v3`{{}} which "uses" another action defined in another repo. This specific action "actions/checkout@v3" is an action that checks out the workspace of the branch that was pushed to.
+
 Read about more different YAML attributes in GitHub Actions [here](https://docs.github.com/en/actions/learn-github-actions/understanding-github-actions).

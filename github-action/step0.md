@@ -3,7 +3,7 @@ To successfully follow this tutorial, you are required to have access to a GitHu
 To start, you should fork [this repo](https://github.com/halvtomat/dd2482-is-bad) by pressing "fork" in the top-right corner
 and then cloning the repo with the `git clone`{{copy}} command.
 
-You probably have to create and add an access token for your GitHub account and use it here to be able to clone the repo. If not you should stil do it since you will need it to push later. Find out how to do it [here](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token).
+You will then have to login to your GitHub account using this command:
 
 `gh auth login`{{exec}}
 
