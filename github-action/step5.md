@@ -10,14 +10,14 @@ By now you know how to write the first few lines of YAML.
 name: Linter
 
 on:
-	push:
-		branches: [main]
-	pull_request:
-		branches: [main]
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
 
 jobs:
-	build:
-		runs-on: ubuntu-latest
+  build:
+    runs-on: ubuntu-latest
 ```{{copy}}
 
 This time we make the action run on both `push`{{}} and `pull_request`{{}} events.

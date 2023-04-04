@@ -8,12 +8,12 @@ As always a file called `merge.yml`{{}} has been created and you can open it in 
 name: Merge
 
 on:
-	push:
-		branches: [release/*]
+  push:
+    branches: [release/*]
 
 jobs:
-	build:
-		runs-on: ubuntu-latest
+  build:
+    runs-on: ubuntu-latest
 ```{{copy}}
 
 You might be able to figure out the `steps` on your own now, they are quite similar to previous examples.
@@ -37,13 +37,17 @@ You can define your own variables by writing something like this:
 
 ```yaml
 variables:
--	name: amount_of_apples
-	value: 5
-- name: name
-	value: 'Daniel'
+  - name: amount_of_apples
+    value: 5
+  - name: name
+    value: 'Daniel'
 ```{{copy}}
 
-And then use them by writing `${{ variables.name }}` or `${{ variables.amount_of_apples }}` anywhere.
+And then use them by writing 
+
+`${{ variables.name }}` or 
+
+`${{ variables.amount_of_apples }}` anywhere.
 
 To push to the repo, use the following commands:
 

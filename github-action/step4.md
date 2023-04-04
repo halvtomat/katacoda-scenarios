@@ -16,11 +16,13 @@ Since we want it to run tests on all PRs to the main branch, we can begin by wri
 name: Auto tester
 
 on:
+  push:
+  branches: [main]
   pull_request:
     branches: [main]
 ```{{copy}}
 
-Now the action will run on all PRs to the main branch, we just need to specify *what* it is supposed to do on these PRs.
+Now the action will run on all PRs and pushes to the main branch, we just need to specify *what* it is supposed to do on these PRs.
 
 We can do this by adding `jobs`.
 
